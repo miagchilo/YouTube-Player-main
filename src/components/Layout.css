@@ -1,0 +1,32 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-header-logo {
+    height: 30px;
+    width: 300px;
+    border-radius: 20%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.layout-header-logo:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;
+}
+
+.youtube-options {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.youtube-options:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;
+}

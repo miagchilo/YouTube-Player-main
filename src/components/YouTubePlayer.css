@@ -1,0 +1,4 @@
+.youtube-player {
+    display: flex;
+    flex-direction: row;
+}

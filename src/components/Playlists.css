@@ -1,0 +1,50 @@
+@keyframes fadedown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.playlists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playlists h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    animation: fadedown 1s ease;
+}
+
+.playlists-input {
+    animation: fadeleft 1s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.playlists input {
+    align-self: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.playlists i {
+    margin-top: 2px;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.playlists i:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.3s ease;
+}

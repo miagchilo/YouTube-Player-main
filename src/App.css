@@ -1,0 +1,16 @@
+body {
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-moz-scrollbar {
+    width: 0px;
+}

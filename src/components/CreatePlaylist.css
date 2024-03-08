@@ -1,0 +1,80 @@
+@keyframes fadedown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes faderight {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeleft {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.create-playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-playlist h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    animation: fadedown 1s ease;
+}
+
+.create-playlist h2 {
+    text-align: center;
+    font-size: 20px;
+    animation: faderight 1s ease;
+}
+
+.create-playlist-input {
+    animation: fadeleft 1s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.create-playlist input {
+    align-self: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.create-playlist i {
+    margin-top: 2px;
+    align-self: center;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.create-playlist i:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.3s ease;
+}

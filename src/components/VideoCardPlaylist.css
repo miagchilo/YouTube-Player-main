@@ -1,0 +1,60 @@
+.video-card-playlist {
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.video-card-playlist-container-img {
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.video-card-playlist-container-img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    background-color: rgba(210, 210, 210, 0.5);
+}
+
+.video-thumbnail-playlist {
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.video-card-playlist-title {
+    position: relative;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: translate(0, -40px);
+}
+
+.video-card-playlist-views {
+    position: relative;
+    transform: translate(65px, -145px);
+    text-align: end;
+    color: lightgray;
+}
+
+.video-card-playlist-delete {
+    position: relative;
+    transform: translate(-100px, -125px);
+    text-align: start;
+    font-size: 20px;
+    color: white;
+}
+
+.video-card-playlist-delete:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
